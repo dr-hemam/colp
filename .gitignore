@@ -1,6 +1,4 @@
 /venv/*
 /migrations/*
 /.idea/*
-settings.py
 *.pyc
-*.sql

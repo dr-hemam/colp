@@ -13,4 +13,4 @@ SQLALCHEMY_DATABASE_URI = DB_URI
 SQLALCHEMY_TRACK_MODIFICATIONS = True
 
 if __name__ == "__main__":
-	app.run()
+	app.run(ssl_context='adhoc')
